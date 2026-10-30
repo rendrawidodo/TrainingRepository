@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">webMethods/trigger</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">Demo.triggers:new_event_trigger</value>
+  <value name="node_pkg">Demo</value>
+  <value name="node_comment"></value>
+  <value name="is_public">false</value>
+  <value name="displayName"></value>
+  <value name="favorite"></value>
+  <value name="tags"></value>
+  <value name="since"></value>
+  <value name="deprecated"></value>
+  <value name="is_visible"></value>
+  <value name="trigger_type">streaming-trigger</value>
+  <record name="trigger" javaclass="com.wm.util.Values">
+    <value name="auditOption">0</value>
+    <record name="auditSettings" javaclass="com.wm.util.Values">
+      <value name="document_data">0</value>
+      <value name="startExecution">false</value>
+      <value name="stopExecution">false</value>
+      <value name="onError">true</value>
+    </record>
+    <value name="uniqueId">e200YbJS74uA7rMVOF3TDv4YLqM=</value>
+    <value name="executeUser">Administrator</value>
+    <value name="maxConsumers">1</value>
+    <value name="minConsumers">1</value>
+    <value name="consumerExpansionDelay">60000</value>
+    <value name="consumerExpansionDelayUnit">MILLISECONDS</value>
+    <value name="consumerCleanupDelay">120000</value>
+    <value name="consumerCleanupDelayUnit">MILLISECONDS</value>
+    <null name="clientId"/>
+    <value name="commitMode">CLIENT_ASYNC</value>
+    <value name="useParallelStreams">false</value>
+    <value name="onDisconnect">ROLLBACK</value>
+    <value name="pollingInterval">5000</value>
+    <value name="pollingIntervalUnit">MILLISECONDS</value>
+    <number name="pollingRequestSize" type="Integer">100</number>
+    <value name="aliasName">Demo_kafka</value>
+    <Boolean name="enabled">true</Boolean>
+    <value name="transientFailureAction">NONE</value>
+    <value name="failureAction">NONE</value>
+    <null name="resourceMonitorSvc"/>
+    <array name="source" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="label">stream</value>
+        <value name="referenceId">test_event</value>
+      </record>
+    </array>
+    <record name="window" javaclass="com.wm.util.Values">
+      <value name="type">SINGLE_EVENT</value>
+      <record name="parameters" javaclass="com.wm.util.Values">
+      </record>
+    </record>
+    <array name="process" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="processId">stream</value>
+        <array name="intermediate" type="record" depth="1">
+        </array>
+        <array name="terminal" type="record" depth="1">
+        </array>
+      </record>
+    </array>
+    <record name="target" javaclass="com.wm.util.Values">
+      <value name="type">INVOKE_SERVICE</value>
+      <record name="parameters" javaclass="com.wm.util.Values">
+        <array name="nameValue" type="record" depth="1">
+          <record javaclass="com.wm.util.Values">
+            <value name="name">serviceName</value>
+            <value name="value">Demo.triggers.new_event_trigger_:stream_target</value>
+          </record>
+        </array>
+        <value name="serviceName">Demo.triggers.new_event_trigger_:stream_target</value>
+      </record>
+    </record>
+  </record>
+</Values>

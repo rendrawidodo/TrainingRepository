@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="enabled">yes</value>
+  <value name="system_package">no</value>
+  <value name="version">1.0</value>
+  <null name="startup_services"/>
+  <null name="shutdown_services"/>
+  <null name="replication_services"/>
+  <null name="requires"/>
+  <null name="listACL"/>
+  <value name="webappLoad">yes</value>
+  <value name="reloadWithDependentPackage">yes</value>
+  <value name="build"></value>
+  <value name="description"></value>
+  <value name="created_date">29-06-2026 06:53:16 CEST</value>
+  <null name="extendedProperties"/>
+  <value name="target_server_version">11.1.0.0</value>
+  <value name="name">Demo</value>
+  <value name="time">2026-10-06 18:34:53 CEST</value>
+  <value name="jvm_version">17.0.12</value>
+  <value name="publisher">vmi3394708.contaboserver.net</value>
+  <value name="patch_nums"></value>
+  <array name="patch_history" type="record" depth="1">
+    <record javaclass="com.wm.util.Values">
+      <value name="name">Demo_sftp</value>
+      <value name="version">1.0</value>
+      <value name="build"></value>
+      <value name="description"></value>
+      <value name="time">2026-10-14 08:17:14 CEST</value>
+      <value name="jvm_version">17.0.12</value>
+      <value name="publisher">vmi3394708.contaboserver.net</value>
+      <value name="patch_nums"></value>
+    </record>
+  </array>
+</Values>

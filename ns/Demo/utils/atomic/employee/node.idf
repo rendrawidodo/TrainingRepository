@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">interface</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">Demo.utils.atomic.employee</value>
+  <value name="node_pkg">Demo</value>
+  <value name="is_public">false</value>
+  <value name="encodeutf8">true</value>
+  <value name="shared">IC8qKk1heGltdW0gU2VxdWVuY2UqKi8KcHJpdmF0ZSBzdGF0aWMgZmluYWwgaW50IE1BWF9TRVFV
+RU5DRSA9IDU7CgovKipNb2NrIERhdGFiYXNlKiovCnByaXZhdGUgc3RhdGljIGZpbmFsIENvbmN1
+cnJlbnRIYXNoTWFwPFN0cmluZywgU2VxdWVuY2VEYXRhPgogICAgICAgIFNFUVVFTkNFX1NUT1JF
+ID0gbmV3IENvbmN1cnJlbnRIYXNoTWFwPD4oKTsKCgovKipTZXF1ZW5jZSBJbmZvcm1hdGlvbioq
+Lwpwcml2YXRlIHN0YXRpYyBjbGFzcyBTZXF1ZW5jZURhdGEgewogICAgcHJpdmF0ZSBpbnQgYmF0
+Y2g7CiAgICBwcml2YXRlIGludCBzZXF1ZW5jZTsKICAgIAogICAgU2VxdWVuY2VEYXRhKGludCBi
+YXRjaCwgaW50IHNlcXVlbmNlKSB7CiAgICAgICAgdGhpcy5iYXRjaCA9IGJhdGNoOwogICAgICAg
+IHRoaXMuc2VxdWVuY2UgPSBzZXF1ZW5jZTsKICAgIH0KCiAgICBwdWJsaWMgaW50IGdldEJhdGNo
+KCkgewogICAgICAgIHJldHVybiBiYXRjaDsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBzZXRCYXRj
+aChpbnQgYmF0Y2gpIHsKICAgICAgICB0aGlzLmJhdGNoID0gYmF0Y2g7CiAgICB9CgogICAgcHVi
+bGljIGludCBnZXRTZXF1ZW5jZSgpIHsKICAgICAgICByZXR1cm4gc2VxdWVuY2U7CiAgICB9Cgog
+ICAgcHVibGljIHZvaWQgc2V0U2VxdWVuY2UoaW50IHNlcXVlbmNlKSB7CiAgICAgICAgdGhpcy5z
+ZXF1ZW5jZSA9IHNlcXVlbmNlOwogICAgfQp9CgovKipHZW5lcmF0ZSBLZXkqKi8KcHJpdmF0ZSBz
+dGF0aWMgU3RyaW5nIGdlbmVyYXRlS2V5KFN0cmluZyBkZXBhcnRtZW50LCBTdHJpbmcgeWVhcikg
+ewogICAgcmV0dXJuIGRlcGFydG1lbnQgKyAiLSIgKyB5ZWFyOwp9CgovKipHZXQgQ3VycmVudCBT
+ZXF1ZW5jZSoqLwpwcml2YXRlIHN0YXRpYyBTZXF1ZW5jZURhdGEgZ2V0U2VxdWVuY2VEYXRhKFN0
+cmluZyBkZXBhcnRtZW50LCBTdHJpbmcgeWVhcikgewogICAgU3RyaW5nIGtleSA9IGdlbmVyYXRl
+S2V5KGRlcGFydG1lbnQsIHllYXIpOwogICAgcmV0dXJuIFNFUVVFTkNFX1NUT1JFLmNvbXB1dGVJ
+ZkFic2VudChrZXksIGsgLT4gbmV3IFNlcXVlbmNlRGF0YSgxLCAwKSk7Cn0KCi8qKkZvcm1hdCBT
+ZXF1ZW5jZSoqLwpwcml2YXRlIHN0YXRpYyBTdHJpbmcgZm9ybWF0U2VxdWVuY2UoaW50IHNlcXVl
+bmNlKSB7CiAgICByZXR1cm4gU3RyaW5nLmZvcm1hdCgiJTA2ZCIsIHNlcXVlbmNlKTsKfQoKLyoq
+Rm9ybWF0IEJhdGNoKiovCnByaXZhdGUgc3RhdGljIFN0cmluZyBmb3JtYXRCYXRjaChpbnQgYmF0
+Y2gpIHsKICAgIHJldHVybiBTdHJpbmcuZm9ybWF0KCIlMDJkIiwgYmF0Y2gpOwp9</value>
+  <value name="extends"></value>
+  <array name="implements" type="value" depth="1">
+  </array>
+  <array name="imports" type="value" depth="1">
+    <value>java.util.concurrent.ConcurrentHashMap</value>
+  </array>
+</Values>
